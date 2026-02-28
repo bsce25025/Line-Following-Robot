@@ -28,6 +28,19 @@ To make the array even better, I also integrated two SPDT micro limit switch to 
 # Bill of Materials (BOM)
 After doing my research, the most affordable components I've got are as follows,
 
-
+| Component | Quantity | Est. Cost (USD) | 
+| :--- | :---: | :--- | 
+| **Custom PCBs (JLCPCB)** | 2 Sets | $15.00 | 
+| **Raspberry Pi Pico** | 1 | $5.00 | 
+| **TCRT5000 Transceivers** | 16 | $4.00 | 
+| **SMD Passives (0805)** | 32 | $2.00 | 
+| **SPDT Limit Switches** | 2 | $1.00 | 
+| **TB6612FNG Module** | 1 | $3.00 | 
+| **6V N20 Motors (600 RPM)** | 4 | $50.00 | 
+| **N20 Wheels & Brackets** | 4 | $6.00 | 
+| **2S LiPo Battery (7.4V)** | 1 | $10.00 | 
+| **Power Modules** | 2 | $3.00 | 
+| **Misc. Hardware** | 1 | $5.00 | 
+| **Total Build Cost:** |  | **~$104.00 USD** |
 
 Because I designed the electronics to use standard, readily available modules, The robot is highly modular. If a motor driver or battery charger ever burns out during a competition, I can just unplug it and swap in a $3 replacement without having to desolder or rebuild the entire robot.
