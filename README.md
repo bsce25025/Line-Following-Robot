@@ -18,7 +18,7 @@ At the end the AO1,  AO2 and BO1, BO2 will be connected to left and right motors
 | :---: | :---: |
 | ![schemetics](PCB/Images/Schematics.JPG) | ![Tracks](PCB/Images/Tracks.JPG) |
 
-[![3D](PCB/Images/3D.JPG)](PCB/PCB.glb)
+[![3D](PCB/Images/3D.JPG)](PCB/PCB.stl)
 
 
 ## Custom Built Sensor Array
@@ -35,7 +35,7 @@ To make the array even better, I also integrated two SPDT micro limit switch to 
 | :---: | :---: |
 | ![schemetics](Sensor%20Array/Images/Schematics.JPG) | ![Tracks](Sensor%20Array/Images/Tracks.JPG) |
 
-[![3D](Sensor%20Array/Images//3D.JPG)](Sensor%20Array/Sensor%20Array.glb)
+[![3D](Sensor%20Array/Images//3D.JPG)](Sensor%20Array/Sensor%20Array.stl)
 
 
 # Bill of Materials (BOM)
