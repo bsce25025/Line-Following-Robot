@@ -4,6 +4,13 @@ Hi! I wanted to make a Line Following Robot(LFR) and I visited some shops and on
 So, I created a LFR from scratch including the PCBs for main board and sensor array for the hardware part and code in 5 separate files.
 Now I will explain Components, Wiring, Coding, and sensor array separately. 
 
+![Corner_View](3D%20assembly/exports/View%203.JPG)
+
+|||
+| :---: | :---: |
+| ![Top_view](3D%20assembly/exports/View%202.JPG) | ![Back_View](3D%20assembly/exports/Top%20View.JPG) |
+
+
 # Components
 
 I've decided the components based on affordability, speed, availability and ease of use.
@@ -18,7 +25,7 @@ At the end the AO1,  AO2 and BO1, BO2 will be connected to left and right motors
 | :---: | :---: |
 | ![schemetics](PCB/Images/Schematics.JPG) | ![Tracks](PCB/Images/Tracks.JPG) |
 
-[![3D](PCB/Images/3D.JPG)](PCB/PCB.stl)
+[![3D](PCB/Images/3D.JPG)](PCB/PCB.glb)
 
 
 ## Custom Built Sensor Array
@@ -35,25 +42,26 @@ To make the array even better, I also integrated two SPDT micro limit switch to 
 | :---: | :---: |
 | ![schemetics](Sensor%20Array/Images/Schematics.JPG) | ![Tracks](Sensor%20Array/Images/Tracks.JPG) |
 
-[![3D](Sensor%20Array/Images//3D.JPG)](Sensor%20Array/Sensor%20Array.stl)
+[![3D](Sensor%20Array/Images//3D.JPG)](Sensor%20Array/Sensor%20Array.glb)
 
 
 # Bill of Materials (BOM)
 After doing my research, the most affordable components I've got are as follows,
 
-| Component | Quantity | Est. Cost (USD) | 
-| :--- | :---: | :--- | 
-| **Custom PCBs (JLCPCB)** | 2 Sets | $15.00 | 
-| **Raspberry Pi Pico** | 1 | $5.00 | 
-| **TCRT5000 Transceivers** | 16 | $4.00 | 
-| **SMD Passives (0805)** | 32 | $2.00 | 
-| **SPDT Limit Switches** | 2 | $1.00 | 
-| **TB6612FNG Module** | 1 | $3.00 | 
-| **6V N20 Motors (600 RPM)** | 4 | $50.00 | 
-| **N20 Wheels & Brackets** | 4 | $6.00 | 
-| **2S LiPo Battery (7.4V)** | 1 | $10.00 | 
-| **Power Modules** | 2 | $3.00 | 
-| **Misc. Hardware** | 1 | $5.00 | 
-| **Total Build Cost:** |  | **~$104.00 USD** |
+| Component | Quantity | Est. Cost (USD) | Purchase Links | 
+| :--- | :---: | :--- | :--- | 
+| **Custom PCBs (JLCPCB)** | 2 Sets | $15.00 | https://jlcpcb.com/quote | 
+| **Raspberry Pi Pico** | 1 | $5.00 | https://ln.run/yanB3 | 
+| **TCRT5000 Transceivers** | 16 | $4.00 | https://ln.run/hACwF | 
+| **SMD Passives (0805)** | 32 | $2.00 | https://ln.run/qddHJ | 
+| **SPDT Limit Switches** | 2 | $1.00 | https://ln.run/QSFtx | 
+| **TB6612FNG Module** | 1 | $3.00 | https://ln.run/ssqYa | 
+| **6V N20 Motors (600 RPM)** | 4 | $50.00 | https://ln.run/JM7nX | 
+| **N20 Wheels & Brackets** | 4 | $6.00 | https://ln.run/CkKDZ ---- https://ln.run/MqKmx | 
+| **2S Battery (7.4V)** | 1 | $3.00 | https://ln.run/iZsS- | 
+| **Power Modules** | 2 | $2.00 | https://ln.run/E-0I9 ---- https://ln.run/bBDg- | 
+| **Misc. Hardware** | 1 | $5.00 | N/A | 
+| **Total Build Cost:** |  | **~$96.00 USD** |
 
 Because I designed the electronics to use standard, readily available modules, The robot is highly modular. If a motor driver or battery charger ever burns out during a competition, I can just unplug it and swap in a $3 replacement without having to desolder or rebuild the entire robot.
+
