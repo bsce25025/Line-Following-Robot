@@ -4,11 +4,11 @@ Hi! I wanted to make a Line Following Robot(LFR) and I visited some shops and on
 So, I created a LFR from scratch including the PCBs for main board and sensor array for the hardware part and code in 5 separate files.
 Now I will explain Components, Wiring, Coding, and sensor array separately. 
 
-![Corner_View](3D%20assembly/exports/View%203.JPG)
+![Corner_View](3D%20assembly/View%203.JPG)
 
 |||
 | :---: | :---: |
-| ![Top_view](3D%20assembly/exports/View%202.JPG) | ![Back_View](3D%20assembly/exports/Top%20View.JPG) |
+| ![Top_view](3D%20assembly/View%202.JPG) | ![Back_View](3D%20assembly/Top%20View.JPG) |
 
 # How to assemble and Opperate this LFR
 
