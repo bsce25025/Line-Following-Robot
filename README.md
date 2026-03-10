@@ -10,6 +10,15 @@ Now I will explain Components, Wiring, Coding, and sensor array separately.
 | :---: | :---: |
 | ![Top_view](3D%20assembly/exports/View%202.JPG) | ![Back_View](3D%20assembly/exports/Top%20View.JPG) |
 
+# How to assemble and Opperate this LFR
+
+**1. Hardware Assembly :** To Use this robot first you need to get the PCBs printed and then solder the components to them and then attach these to the chasis. Now plug and connect everything into its place and then you can move to software part.
+
+**2. Uploading the Code :** Now connect Raspberry Pi Pico to your computer and open the **LFR_Code.ino** file and upload that to the Pico.
+
+**3. Tuning the Constants :** Place the robot on a Black line with a White Background and adjust the Kp and Kd values such that the robot stops wobbling and runs smoothly.
+
+**4. Ready to Race :** Now the robot is ready, You just need to turn it on and Race.
 
 # Components
 
